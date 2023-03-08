@@ -1,0 +1,98 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #012B1C !important;
+}
+
+#div_nav{
+	background-color: #012B1C !important;
+}
+
+#contact_border{
+	border-radius: 10px;
+	background-color: black;
+	border: 1px solid white;
+	font-weight: bolder;
+}
+
+#jeri{
+	color: #FB7730 !important;
+	font-weight: bolder !important;
+    scroll-behavior: smooth;
+}
+
+
+#nav_project:hover, #nav_tools:hover{
+	color:#FB7730 !important;
+}
+
+#nav_contact:hover{
+	background-color: #FB7730;
+	border-radius: 10px;
+}
+
+#div_about:hover, #div_project:hover, #div_tools:hover, #div_contact:hover{
+	background-color: #109061 !important;
+}
+
+#nav_projects:hover, #nav_tools: hover, #nav_contact: hover{
+    scroll-behavior: smooth;
+}
+
+h6{
+    color: #FB7730 !important;
+}
+
+.touch{
+    text-decoration: none !important;
+    color: white;
+}
+
+.touch:hover{
+    color: #FB7730 !important;
+}
+
+form{
+    background-color: black;
+    border-radius: 20px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    background-color: #4B4D4C;
+    color: whitesmoke;
+}
+
+textarea {
+    border: none;
+    border-radius: 5px;
+    background-color: #4B4D4C;
+    color: whitesmoke;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #FB7730;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: #F76F0B;
+}
+
+::placeholder { 
+  color: gray;
+}
+
+footer{
+    
+    width: 100%;
+    bottom: 0;
+
+}
