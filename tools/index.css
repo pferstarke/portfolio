@@ -4,7 +4,7 @@
 }
 
 body{
-	background-color: #012B1C !important;
+	background-color: #15374D !important;
 }
 
 html{
@@ -12,7 +12,7 @@ html{
 }
 
 #div_nav{
-	background-color: #012B1C !important;
+	background-color: #15374D !important;
 }
 
 #contact_border{
@@ -28,28 +28,24 @@ h1{
 }
 
 #jeri{
-	color: #FB7730 !important;
-	font-weight: bolder !important;
+    font-weight: bolder !important;
     scroll-behavior: smooth;
+}
+
+#jeri:hover{
+    color: #71B0C3 !important;
 }
 
 
 #nav_project:hover, #nav_tools:hover{
-	color:#FB7730 !important;
+    color:#71B0C3 !important;
 }
 
 #nav_contact:hover{
-	background-color: #FB7730;
-	border-radius: 10px;
+    background-color: #6E94A0;
+    border-radius: 10px;
 }
 
-#div_about:hover, #div_project:hover, #div_tools:hover, #div_contact:hover{
-	background-color: #109061 !important;
-}
-
-#nav_projects:hover, #nav_tools: hover, #nav_contact: hover{
-    scroll-behavior: smooth;
-}
 
 .flip-box {
     background-color: transparent;
