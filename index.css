@@ -131,7 +131,6 @@ h1
 /* :after */
 
 #div_about:after {
-    content: attr(data-active);
     -webkit-transform: translate(150%,0);
     -moz-transform: translate(150%,0);
     -ms-transform: translate(150%,0);
@@ -139,7 +138,7 @@ h1
     transform: translate(150%,0);
 }
 
-/* Span on :hover and :active */
+/* div on :hover and :active */
 
 #div_about:hover h2,
 #div_about:active h2 {
@@ -174,7 +173,7 @@ h1
   We hide :before pseudo-element on :active
 */
 
-#div_about:active:before {
+/*#div_about:active:before {
     -webkit-transform: translate(-150%,0);
     -moz-transform: translate(-150%,0);
     -ms-transform: translate(-150%,0);
@@ -184,7 +183,7 @@ h1
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
     transition-delay: 0s;
-}
+}*/
 
 /*---------div_project------------*/
 
@@ -244,7 +243,6 @@ h1
 /* :after */
 
 #div_project:after {
-    content: attr(data-active);
     -webkit-transform: translate(150%,0);
     -moz-transform: translate(150%,0);
     -ms-transform: translate(150%,0);
@@ -252,7 +250,7 @@ h1
     transform: translate(150%,0);
 }
 
-/* Span on :hover and :active */
+/* div on :hover and :active */
 
 #div_project:hover h2,
 #div_project:active h2 {
@@ -286,7 +284,7 @@ h1
 /* 
   We hide :before pseudo-element on :active
 */
-#div_project:active:before {
+/*#div_project:active:before {
     -webkit-transform: translate(-150%,0);
     -moz-transform: translate(-150%,0);
     -ms-transform: translate(-150%,0);
@@ -296,7 +294,7 @@ h1
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
     transition-delay: 0s;
-}
+}*/
 
 
 
@@ -357,7 +355,6 @@ h1
 /* :after */
 
 #div_tools:after {
-    content: attr(data-active);
     -webkit-transform: translate(150%,0);
     -moz-transform: translate(150%,0);
     -ms-transform: translate(150%,0);
@@ -400,7 +397,7 @@ h1
   We hide :before pseudo-element on :active
 */
 
-#div_tools:active:before {
+/*#div_tools:active:before {
     -webkit-transform: translate(-150%,0);
     -moz-transform: translate(-150%,0);
     -ms-transform: translate(-150%,0);
@@ -410,7 +407,7 @@ h1
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
     transition-delay: 0s;
-}
+}*/
 
 
 
@@ -470,7 +467,6 @@ h1
 /* :after */
 
 #div_contact:after {
-    content: attr(data-active);
     -webkit-transform: translate(150%,0);
     -moz-transform: translate(150%,0);
     -ms-transform: translate(150%,0);
@@ -478,17 +474,17 @@ h1
     transform: translate(150%,0);
 }
 
-/* Span on :hover and :active */
+/* div on :hover and :active */
 
 #div_contact:hover h2,
-#div_contact:active h2 {
+/*#div_contact:active h2 {
     opacity: 0;
     -webkit-transform: scale(0.3);
     -moz-transform: scale(0.3);
     -ms-transform: scale(0.3);
     -o-transform: scale(0.3);
     transform: scale(0.3);
-}
+}*/
 
 /*  
     We show :before pseudo-element on :hover 
@@ -496,7 +492,7 @@ h1
 */
 
 #div_contact:hover:before,
-#div_contact:active:after {
+/*#div_contact:active:after {
     opacity: 1;
     -webkit-transform: translate(0,0);
     -moz-transform: translate(0,0);
@@ -507,7 +503,7 @@ h1
     -moz-transition-delay: .4s;
     -o-transition-delay: .4s;
     transition-delay: .4s;
-}
+}*/
 
 /* 
   We hide :before pseudo-element on :active
